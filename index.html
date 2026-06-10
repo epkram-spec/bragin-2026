@@ -118,6 +118,7 @@
     .close{position:absolute;right:0;top:-45px;border:0;border-radius:999px;background:#fff;padding:10px 14px;font-weight:950;cursor:pointer}
     .footer{padding:36px 0 52px;text-align:center;color:#667085;font-size:13px}
     ul.clean{margin:0;padding-left:20px;color:#344054;line-height:1.65}
+    ul.clean li.critical-point{list-style:none;margin:9px 0 9px -20px;padding:11px 13px;border-left:4px solid var(--red);border-radius:14px;background:#fff1f2;color:#7f1d1d;font-weight:850;line-height:1.5}
     .note{font-size:13px;color:#667085;line-height:1.5;margin-top:10px}
     @media (max-width:980px){.hero-grid,.cols-4,.cols-3,.cols-2{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.score-row{grid-template-columns:110px 1fr 40px}}
     @media (max-width:700px){.nav{align-items:flex-start}.brand{font-size:14px;align-items:flex-start}.brand>span:last-child{min-width:0;overflow-wrap:anywhere}.logo-pill{min-width:72px;max-width:82px}.logo-pill{height:42px;font-size:18px}.hero-grid,.cols-4,.cols-3,.cols-2,.calc{grid-template-columns:1fr}.hero-card,.decision-card{padding:24px;border-radius:26px}.gallery{grid-template-columns:1fr}.photo{min-height:240px}.section h2{font-size:27px}.chart{height:300px}.score-row{grid-template-columns:1fr;gap:6px}.tabs{border-radius:20px}.tab{padding:12px 14px}.wrap{width:min(100% - 24px,1220px)}.overview-tables .table-wrap{border:0;background:transparent}.overview-tables table,.overview-tables thead,.overview-tables tbody,.overview-tables tr,.overview-tables th,.overview-tables td{display:block;width:100%}.overview-tables table{border-collapse:separate;border-spacing:0}.overview-tables thead{display:none}.overview-tables tr{background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:12px;padding:10px 12px;box-shadow:0 8px 22px rgba(17,24,39,.05)}.overview-tables td{border-bottom:0;padding:7px 0}.overview-tables td:before{display:block;font-size:11px;font-weight:950;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:3px}.strategic-table td:nth-child(1):before{content:"Ціль"}.strategic-table td:nth-child(2):before{content:"Факт"}.strategic-table td:nth-child(3):before{content:"Статус"}.plan-table td:nth-child(1):before{content:"Блок"}.plan-table td:nth-child(2):before{content:"Факт"}.plan-table td:nth-child(3):before{content:"Висновок"}}
@@ -194,7 +195,7 @@
         <div class="table-wrap"><table class="plan-table"><thead><tr><th>Блок</th><th>Факт</th><th>Висновок</th></tr></thead><tbody>
           <tr><td>Технічна участь</td><td>Обладнання працювало на сцені, у зоні учасників і на стенді.</td><td><span class="status done">Добре</span></td></tr>
           <tr><td>Маркетингові прояви</td><td>Основні домовленості виконані, частина моментів коригувалась на місці.</td><td><span class="status done">Добре</span></td></tr>
-          <tr><td>Комерційний результат</td><td>Зібрано 10 анкет стенду. Якість контактів і гарячі запити треба окремо кваліфікувати.</td><td><span class="status partial">Частково</span></td></tr>
+          <tr><td>Комерційний результат</td><td>Зібрано 10 анкет стенду. Якість контактів низька і не відповідає очікуванням.</td><td><span class="status partial">Нижче очікувань</span></td></tr>
           <tr><td>Якість аудиторії</td><td>Фактична аудиторія була менш релевантною, ніж потрібно для SPROF.</td><td><span class="status no">Слабко</span></td></tr>
         </tbody></table></div>
       </div>
@@ -246,8 +247,8 @@
         <li>У реєстраційній базі є потенційно цікаві групи: рітейл, АЗК, виробництва, технологи, шефи та окремі ЛПР.</li>
         <li>Найпомітніші групи у списку: Епіцентр, VPU33 / освіта, UPG, VARUS / ТОВ Омега, Велика Кишеня, Family, ТМ Якім та інші.</li>
         <li>Водночас велика частина бази має неповні дані: 108 записів без компанії і ролі, тому частину аудиторії неможливо якісно оцінити до контакту.</li>
-        <li>Фактично на події було багато студентів і викладачів. Для іміджу це прийнятно, але для продажу і пошуку проєктів така аудиторія слабка.</li>
-        <li>Ключова проблема: організатор не передав завчасно списки учасників для цільової комунікації та не ініціював персональні знайомства з релевантними учасниками.</li>
+        <li class="critical-point">Фактично на події було багато студентів і викладачів. Для іміджу це прийнятно, але для продажу і пошуку проєктів така аудиторія слабка.</li>
+        <li class="critical-point">Ключова проблема: організатор не передав завчасно списки учасників для цільової комунікації та не ініціював персональні знайомства з релевантними учасниками.</li>
       </ul></div>
   </div>
 
